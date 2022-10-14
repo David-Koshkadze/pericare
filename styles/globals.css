@@ -1,26 +1,33 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer components {
+  .nav-link {
+    @apply px-4 hover:bg-[#54b6c4] cursor-pointer justify-center items-center flex flex-1 text-[#474775] border-l-[1px];
   }
-  body {
-    color: white;
-    background: black;
+
+  .nav__items:nth-last-child() {
+    @apply border-r-[1px];
   }
+
+  .header-icon {
+    @apply w-[18px] h-[18px] text-gray-500 cursor-pointer;
+  }
+
+  .heading-txt {
+    @apply text-2xl text-[#474775];
+  }
+
+  .posts__grid {
+    @apply grid w-full h-full gap-8;
+  }
+
+  .footer__links a {
+    @apply underline;
+  }
+}
+
+.posts__grid {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
