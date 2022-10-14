@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 function FooterIcon({ children, link }) {
   return (
     <div className="bg-white rounded-full w-10 h-10 grid place-content-center">
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer">
         {children}
       </a>
     </div>
