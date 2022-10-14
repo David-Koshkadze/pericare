@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="w-[1050px] mx-auto">
         <div className="flex justify-between">
           <div className="footer__links flex flex-col gap-2">
-            <a href="#">Contact us</a>
+            <a href="#">Contact us1</a>
             <a href="#">About us</a>
             <a href="#">A-Z topics</a>
             <a href="#">Symptom Checker</a>
