@@ -14,7 +14,7 @@ export default function Posts() {
     <div className="text-center w-full mt-8 mb-8">
       <h1 className="heading-txt mb-5">სტატიები</h1>
 
-      <div className="posts__grid">
+      <div className="posts__grid px-8 md:px-0">
         {articles.map((item) => (
           <Article
             key={item.id}
