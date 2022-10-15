@@ -1,4 +1,38 @@
-import React from 'react'
+import React from "react";
+import Article from "./Article";
+
+const articles = [
+  {
+    title: "Planning for your pregnancy",
+    content: "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
+    photo: "/assets/planning-for-pregnancy.jpg",
+  },
+  {
+    title: "Folate and pregnancy",
+    content: "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
+    photo: "/assets/folate-and-pregnancy.jpg"
+  },
+  {
+    title: "Planning for your pregnancy",
+    content: "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
+    photo: "/assets/planning-for-pregnancy.jpg",
+  },
+  {
+    title: "Folate and pregnancy",
+    content: "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
+    photo: "/assets/folate-and-pregnancy.jpg"
+  },
+  {
+    title: "Planning for your pregnancy",
+    content: "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
+    photo: "/assets/planning-for-pregnancy.jpg",
+  },
+  {
+    title: "Folate and pregnancy",
+    content: "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
+    photo: "/assets/folate-and-pregnancy.jpg"
+  },
+];
 
 export default function Posts() {
   return (
@@ -6,11 +40,10 @@ export default function Posts() {
       <h1 className="heading-txt mb-5">სტატიები</h1>
 
       <div className="posts__grid">
-        {[...new Array(6)].map((_, idx) => (
-          <div key={idx} className="h-[250px] bg-emerald-600"></div>
+        {articles.map((item, idx) => (
+          <Article key={idx} title={item.title} content={item.content} photo={item.photo}/>
         ))}
       </div>
-
     </div>
-  )
+  );
 }
