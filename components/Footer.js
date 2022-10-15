@@ -13,7 +13,7 @@ function FooterIcon({ children, link }) {
 
 export default function Footer() {
   return (
-    <div className="w-full bg-[#666666] pt-10 pb-10 text-white">
+    <footer className="w-full bg-[#666666] pt-10 pb-10 text-white ">
       <div className="w-[1050px] mx-auto">
         <div className="flex justify-between">
           <div className="footer__links flex flex-col gap-2">
@@ -38,6 +38,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

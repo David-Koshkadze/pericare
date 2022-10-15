@@ -21,7 +21,7 @@ export default function VideoGallery() {
             src={activeVideo}
             title="YouTube video player"
             frameBorder="0"
-            class="frame-child"
+            className="frame-child"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
