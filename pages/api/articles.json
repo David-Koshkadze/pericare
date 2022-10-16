@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Planning for your pregnancy",
+    "category": "pregnancy",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis, erat at dapibus vulputate, risus enim pulvinar est, nec congue lectus quam ut diam. Mauris ultrices dictum leo eget consectetur. Nullam iaculis turpis ut lorem commodo hendrerit. Aenean ut risus ex. Nulla a mattis sem, in iaculis mauris. Morbi aliquam accumsan nulla sed efficitur. Phasellus nec tempus augue. Nam elementum justo eget viverra aliquam. Nunc mattis dui in arcu auctor, vel feugiat nunc dictum. Curabitur eleifend scelerisque sapien vel posuere. Etiam urna tortor, ultricies id cursus vitae, congue a ex. Donec a sapien fringilla, ultricies nisl sagittis, scelerisque lorem. Duis nec facilisis nisl, id commodo lorem. Nulla sem odio, porta eget tristique sed, ullamcorper ac lectus. Donec placerat magna justo, in placerat purus ultrices sit amet. Nulla facilisi. Donec eu accumsan est, non scelerisque elit. Donec a finibus augue, ac interdum ipsum. Fusce rutrum purus vel justo luctus tincidunt. Duis congue felis et mauris laoreet, non tincidunt sapien vulputate. Suspendisse ut enim at mauris tincidunt lobortis in et arcu. Donec dictum tellus a dolor ultrices, ac pharetra mauris viverra. Nullam facilisis elit sagittis, pellentesque lectus nec, maximus augue. Suspendisse nec iaculis lorem, eu malesuada felis. Morbi lorem ipsum, porta quis nunc vel, dapibus dapibus justo. Morbi posuere lorem pretium, tincidunt risus eget, semper enim. Nullam posuere pretium orci sed tincidunt. Vestibulum a tellus vel purus venenatis cursus eu ullamcorper quam. Mauris volutpat condimentum venenatis. Nulla condimentum quam at posuere placerat. Nunc molestie magna dui, sed rhoncus neque iaculis mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed mi id mi condimentum aliquam eu quis nisi. Sed aliquam odio id vestibulum vehicula. Ut gravida sodales dictum. Maecenas in lobortis mi. Cras pharetra tristique aliquet. Sed convallis dui interdum risus dictum, vitae congue magna lacinia. Curabitur ut justo sem. Curabitur dapibus, nibh eget pellentesque elementum, arcu purus pellentesque ex, a iaculis nisi orci vel sapien. Nulla facilisi. Nam a imperdiet nisi. Donec tortor felis, ornare in posuere a, cursus vitae ex. Donec sed laoreet velit, ut laoreet ipsum. Suspendisse tempus nisl vitae dui imperdiet volutpat. In et condimentum quam, ut mattis odio. Integer ac urna id odio ultricies pharetra sit amet eu arcu. Morbi vitae congue ipsum. Phasellus ullamcorper neque leo, ac venenatis sem pretium at.",
     "photo": "/assets/planning-for-pregnancy.jpg"
   },
@@ -14,30 +15,35 @@
   {
     "id": 3,
     "title": "Planning for your pregnancy",
+    "category": "pregnancy",
     "content": "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
     "photo": "/assets/planning-for-pregnancy.jpg"
   },
   {
     "id": 4,
     "title": "Folate and pregnancy",
+    "category": "birth",
     "content": "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
     "photo": "/assets/folate-and-pregnancy.jpg"
   },
   {
     "id": 5,
     "title": "Planning for your pregnancy",
+    "category": "birth",
     "content": "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
     "photo": "/assets/planning-for-pregnancy.jpg"
   },
   {
     "id": 6,
     "title": "Folate and pregnancy",
+    "category": "baby",
     "content": "If you are thinking about pregnancy, visit your doctor for a preconception consult to provide you with expert advice on planning your pregnancy.",
     "photo": "/assets/folate-and-pregnancy.jpg"
   },
   {
     "id": 7,
     "title": "რატომ არის რთული ვაღიაროთ, რომ დეპრესია ან შფოთვა გვაწუხებს, ორსულობისას ან ორსულობის შემდეგ? ",
+    "category": "child",
     "content": "დეპრესიის, შფოთვის და სხვა ფსიქიკური ჯანმრთელობის პრობლემების ამოცნობა და აღიარება სხვადასხვა მიზეზის გამო რთულდება. პირველ რიგში, ახალბედა დედა შეიძლება სულაც ვერ მიხვდეს, რომ მისი დაღლილობა, გადაწვა და უგუნებობა ფსიქიკური ჯანმრთელობის პრობლემის ბრალია და არ არის გამოწვეული ახალშობილთან და ახალ როლთან ადაპტაციის მიზეზით. შეიძლება ის ფიქრობდეს, რომ დედობის საწყისი პერიოდი სწორედაც რომ ასეთია  - უჭირდეს გაარჩიოს ნორმა და პრობლემა. დედები ხშირად თავს იდანაშაულებენ, რომ რაღაცას სწორად ვერ აკეთებენ ან საკმარისად ვერ ასრულებენ თავიანთ დედობრივ ფუნქციას, სინამდვილეში მათი მდგომარეობა სამედიცინო კონდიციაა და სახელი ჰქვია. მეორე, დედები ხშირად თავს შერცხვენილად გრძნობენ, რომ ბავშვის დაბადებასთან ასოცირებული მოსალოდნელი აღფრთოვანება და სიხარული არ ეწვიათ, რის გამოც ხშირად სინდისი ჰქენჯნით. შესაბამისად, უჭირთ აღიარონ, რომ ნეგატიური განცდები გააჩნიათ და ჰგონიათ, რომ ამის გამო მათ ვინმე გაკიცხავს ან ცუდ დედად შერაცხავს. მესამე, პერინატალური ფსიქიკური ჯანმრთელობის პრობლემის შემთხვევაში, თითოეული ქალი, ინდივიდუალურად, მისთვის გამორჩეულ ნიშნებსა და სიმპტომებს გრძნობს. ზოგიერთი სევდიანი და ცრემლიანია, ზოგი გადაღლილი და გაღიზიანებული, ზოგი ბავშვისგან დისტანცირებული და გაუცხოებული ხდება, ზოგსაც კი ბევრი სძინავს ან პირიქით, უძილობა აწუხებს. ნიშანთა ეს მრავალფეროვნება კიდევ უფრო ართულებს მდგომარეობის ამოცნობას და დედის მხრიდან აღიარებას.",
     "photo": "/assets/folate-and-pregnancy.jpg"
   }

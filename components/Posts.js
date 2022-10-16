@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Article from "./Article";
 
-export default function Posts() {
+export default function Posts({category}) {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch("/api/articles")
+    let linkApi = "/api/articles";
+
+    if (category) {
+      linkApi = "/api/articles/category/" + category;
+    }
+
+    fetch(linkApi)
       .then((res) => res.json())
       .then((data) => setArticles(data));
   }, []);

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 export default function Header() {
+  const categoryLinks = ["pregnancy", "birth", "baby", "child"];
   return (
     <>
       <div className="w-full flex justify-between items-center md:hidden px-4 bg-slate-200">
@@ -14,10 +15,7 @@ export default function Header() {
           />
         </Link>
 
-        <div>
-          Menu
-        </div>
-
+        <div>Menu</div>
       </div>
 
       <header className="w-full mt-2 hidden md:block">
@@ -44,10 +42,15 @@ export default function Header() {
         </div>
 
         <nav className="nav__items flex justify-between w-full h-[42px]">
-          <div className="nav-link">Pregnancy</div>
-          <div className="nav-link">Birth</div>
-          <div className="nav-link">Baby</div>
-          <div className="nav-link">Child</div>
+          {categoryLinks.map((item, idx) => (
+            <div key={idx} className="nav-link">
+              <Link href={`/category/${item}`} passHref>
+                <a href={`/category/${item}`} rel="noopener">
+                  {item}
+                </a>
+              </Link>
+            </div>
+          ))}
           <div className="nav-link">Ukraine</div>
           <div className="nav-link">About Us</div>
         </nav>

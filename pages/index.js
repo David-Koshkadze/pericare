@@ -17,7 +17,7 @@ export default function Home() {
 
       <Hero />
       <VideoGallery />
-      <Posts />
+      <Posts/>
     </>
   );
 }
