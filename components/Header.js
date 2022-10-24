@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflowY = "hidden";
+    }
+
+    return () => (document.body.style.overflowY = "auto");
+  }, [isOpen, setIsOpen]);
+
   const categoryLinks = ["pregnancy", "birth", "baby", "child"];
   return (
     <>
@@ -15,8 +26,20 @@ export default function Header() {
           />
         </Link>
 
-        <div>Menu</div>
+        <div onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+        </div>
       </div>
+
+      {isOpen ? (
+        <div className="bg-gray-200 h-screen w-full flex flex-col pt-8 gap-4">
+          {categoryLinks.map((item, idx) => (
+            <div className="mx-auto">
+              <Link href="/">{item}</Link>
+            </div>
+          ))}
+        </div>
+      ) : null}
 
       <header className="w-full mt-2 hidden md:block">
         <div className="flex w-full justify-between">
@@ -28,7 +51,7 @@ export default function Header() {
             />
           </Link>
 
-          <div className="flex gap-6">
+          <div className="flex gap-6 items-center">
             <p>+995 593 55 56 40</p>
             <div className="flex gap-5">
               <Link href="https://www.facebook.com/Pericare">
@@ -44,8 +67,8 @@ export default function Header() {
         <nav className="nav__items flex justify-between w-full h-[42px]">
           {categoryLinks.map((item, idx) => (
             <div key={idx} className="nav-link">
-              <Link href={`/category/${item}`} passHref>
-                <a href={`/category/${item}`} rel="noopener">
+              <Link href={"/"} passHref>
+                <a href={"/"} rel="noopener">
                   {item}
                 </a>
               </Link>
