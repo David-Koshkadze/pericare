@@ -34,7 +34,7 @@ export default function Header() {
       {isOpen ? (
         <div className="bg-gray-200 h-screen w-full flex flex-col pt-8 gap-4">
           {categoryLinks.map((item, idx) => (
-            <div className="mx-auto">
+            <div key={idx} className="mx-auto">
               <Link href="/">{item}</Link>
             </div>
           ))}
