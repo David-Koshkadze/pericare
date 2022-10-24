@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer components {
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
   .nav-link {
     @apply px-4 hover:bg-[#54b6c4] cursor-pointer justify-center items-center flex flex-1 text-[#474775] border-l-[1px];
   }
@@ -30,4 +42,29 @@
 
 .posts__grid {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 1rem 0;
+}
+
+a {
+  color: inherit;
+}
+
+ol, ul, menu {
+  list-style: initial;
+  margin-left: 3rem;
 }
