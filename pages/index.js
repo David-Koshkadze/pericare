@@ -20,7 +20,7 @@ export default function Home({ posts }) {
       </Head>
 
       <Hero />
-      {/* <VideoGallery /> */}
+      <VideoGallery />
       <Posts posts={posts} />
     </>
   );
