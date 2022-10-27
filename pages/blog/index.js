@@ -1,26 +1,14 @@
-import Head from "next/head";
-import Hero from "../components/Hero";
-import Posts from "../components/Posts";
-import VideoGallery from "../components/VideoGallery";
-
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import Posts from "../../components/Posts";
 
-export default function Home({ posts }) {
+export default function AllBlogs({posts}) {
   return (
-    <>
-      <Head>
-        <title>Pericare</title>
-        <meta name="description" content="Pericare" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Hero />
-      <VideoGallery />
-      <Posts posts={posts.slice(0, 6)} />
-    </>
-  );
+    <div>
+      <Posts posts={posts} />
+    </div>
+  )
 }
 
 export async function getStaticProps() {

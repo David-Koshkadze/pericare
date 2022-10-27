@@ -14,7 +14,31 @@ export default function Header() {
     return () => (document.body.style.overflowY = "auto");
   }, [isOpen, setIsOpen]);
 
-  const categoryLinks = ["pregnancy", "birth", "baby", "child"];
+  const categoryLinks = [
+    {
+      name: "blog",
+      link: "/blog"
+    },
+    {
+      name: "pregnancy"
+    },
+    {
+      name: "birth"
+    },
+    {
+      name: "baby"
+    },
+    {
+      name: "child"
+    },
+    {
+      name: "Ukraine"
+    },
+    {
+      name: "about us"
+    }
+  ];
+
   return (
     <>
       <div className="w-full flex justify-between items-center md:hidden px-4 bg-slate-200">
@@ -67,15 +91,13 @@ export default function Header() {
         <nav className="nav__items flex justify-between w-full h-[42px]">
           {categoryLinks.map((item, idx) => (
             <div key={idx} className="nav-link">
-              <Link href={"/"} passHref>
-                <a href={"/"} rel="noopener">
-                  {item}
+              <Link href={item.link ? `${item.link}` : "/"} passHref>
+                <a href={item.link ? `${item.link}` : "/"} rel="noopener">
+                  {item.name}
                 </a>
               </Link>
             </div>
           ))}
-          <div className="nav-link">Ukraine</div>
-          <div className="nav-link">About Us</div>
         </nav>
       </header>
     </>
