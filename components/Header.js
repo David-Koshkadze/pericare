@@ -17,27 +17,27 @@ export default function Header() {
   const categoryLinks = [
     {
       name: "blog",
-      link: "/blog"
+      link: "/blog",
     },
     {
-      name: "pregnancy"
+      name: "pregnancy",
     },
     {
-      name: "birth"
+      name: "birth",
     },
     {
-      name: "baby"
+      name: "baby",
     },
     {
-      name: "child"
+      name: "child",
     },
     {
-      name: "Ukraine"
+      name: "Ukraine",
     },
     {
       name: "about us",
-      link: "/about_us"
-    }
+      link: "/about_us",
+    },
   ];
 
   return (
@@ -60,7 +60,15 @@ export default function Header() {
         <div className="bg-gray-200 h-screen w-full flex flex-col pt-8 gap-4">
           {categoryLinks.map((item, idx) => (
             <div key={idx} className="mx-auto">
-              <Link href="/">{item}</Link>
+              <Link href={item.link ? `${item.link}` : "/"}>
+                <a
+                  href={item.link ? `${item.link}` : "/"}
+                  rel="noopener"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </a>
+              </Link>
             </div>
           ))}
         </div>
@@ -91,13 +99,15 @@ export default function Header() {
 
         <nav className="nav__items flex justify-between w-full h-[42px]">
           {categoryLinks.map((item, idx) => (
-            <div key={idx} className="nav-link">
-              <Link href={item.link ? `${item.link}` : "/"} passHref>
-                <a href={item.link ? `${item.link}` : "/"} rel="noopener">
-                  {item.name}
-                </a>
-              </Link>
-            </div>
+            <Link key={idx} href={item.link ? `${item.link}` : "/"} passHref>
+              <a
+                href={item.link ? `${item.link}` : "/"}
+                rel="noopener"
+                className="nav-link"
+              >
+                {item.name}
+              </a>
+            </Link>
           ))}
         </nav>
       </header>
