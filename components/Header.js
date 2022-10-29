@@ -35,7 +35,8 @@ export default function Header() {
       name: "Ukraine"
     },
     {
-      name: "about us"
+      name: "about us",
+      link: "/about_us"
     }
   ];
 
