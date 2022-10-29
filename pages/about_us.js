@@ -3,7 +3,8 @@ import React from "react";
 export default function index() {
   return (
     <div className="px-4 md:px-0">
-      <h1>About Us</h1>
+      <img src="/assets/about_page_img.jpg" alt="about-img" className="mt-4"/>
+      <h1 className="mx-auto heading-txt mb-5">ჩვენს შესახებ</h1>
       <p>
         პერინატალური ფსიქოთერაპიის საზოგადოება - „პერიქეა“ არის არასამთავრობო
         ორგანიზაცია, რომლის მიზანია ფსიქიკური ჯანმრთელობის ხელშეწყობა პრე და
