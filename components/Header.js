@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 export default function Header() {
@@ -16,26 +16,26 @@ export default function Header() {
 
   const categoryLinks = [
     {
-      name: "blog",
+      name: "ბლოგი",
       link: "/blog",
     },
     {
-      name: "pregnancy",
+      name: "ორსულობა",
     },
     {
-      name: "birth",
+      name: "მშობიარობა",
     },
     {
-      name: "baby",
+      name: "ახალშობილი",
     },
     {
-      name: "child",
+      name: "ბავშვი",
     },
     {
-      name: "Ukraine",
+      name: "უკრაინია",
     },
     {
-      name: "about us",
+      name: "ჩვენს შესახებ",
       link: "/about_us",
     },
   ];
@@ -59,7 +59,7 @@ export default function Header() {
       {isOpen ? (
         <div className="bg-gray-200 h-screen w-full flex flex-col pt-8 gap-4">
           {categoryLinks.map((item, idx) => (
-            <div key={idx} className="mx-auto">
+            <div key={idx} className="mx-auto mb-4">
               <Link href={item.link ? `${item.link}` : "/"}>
                 <a
                   href={item.link ? `${item.link}` : "/"}
@@ -71,6 +71,14 @@ export default function Header() {
               </Link>
             </div>
           ))}
+          <div className="mx-auto mt-10 flex gap-8">
+            <Link href="https://www.facebook.com/Pericare">
+              <FaFacebookF className="header-icon w-6 h-6"/>
+            </Link>
+            <Link href="youtube.com">
+              <FaYoutube className="header-icon w-6 h-6" />
+            </Link>
+          </div>
         </div>
       ) : null}
 
@@ -85,13 +93,12 @@ export default function Header() {
           </Link>
 
           <div className="flex gap-6 items-center">
-            <p>+995 593 55 56 40</p>
             <div className="flex gap-5">
               <Link href="https://www.facebook.com/Pericare">
                 <FaFacebookF className="header-icon" />
               </Link>
               <Link href="youtube.com">
-                <FaInstagram className="header-icon" />
+                <FaYoutube className="header-icon" />
               </Link>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import Image from "next/image";
+import Link from "next/link";
+import { FaFacebookF, FaYoutube } from "react-icons/fa";
 
 function FooterIcon({ children, link }) {
   return (
@@ -18,8 +18,8 @@ export default function Footer() {
       <div className="max-w-[1050px] mx-auto px-4 lg:px-0 relative">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="footer__links flex flex-col gap-2 w-auto md:w-full ">
-            <a href="#">Contact us</a>
-            <a href="#">About us</a>
+            <a href="#">კონტაქტი</a>
+            <Link href="/about_us">ჩვენს შესახებ</Link>
           </div>
 
           <div className="mt-10 md:mt-0">
@@ -29,7 +29,7 @@ export default function Footer() {
                   <FaFacebookF className="header-icon" />
                 </FooterIcon>
                 <FooterIcon>
-                  <FaInstagram className="header-icon" />
+                  <FaYoutube className="header-icon" />
                 </FooterIcon>
               </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function index() {
+export default function AboutUs() {
   return (
     <div className="px-4 md:px-0">
       <img src="/assets/about_page_img.jpg" alt="about-img" className="mt-4"/>
@@ -107,7 +107,7 @@ export default function index() {
 
       <p>
         <strong>სამედიცინო და ზრუნვის სფეროში მომუშავე პერსონალი:</strong>
-        ექიმები, ექთნები, აღმზრდელები;
+        {" "}ექიმები, ექთნები, აღმზრდელები;
       </p>
 
       <p className="font-bold">პერიქეას შედეგები:</p>
