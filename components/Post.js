@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Post({post}) {
   return (
-    <div className="h-auto border-l border-r border-b transition-all">
-      <img src={post.frontmatter.cover_image} alt='' />
+    <div className="h-auto border transition-all">
+      <img src={post.frontmatter.cover_image} alt='' className="h-[300px] mx-auto mt-1"/>
       <div className="px-4 pb-4 flex flex-col ">
         <p className="text-xl text-[#474775] my-3">{post.frontmatter.title}</p>
         <p className="text-left mb-10 overflow-hidden text-ellipsis">{post.frontmatter.excerpt}</p>
