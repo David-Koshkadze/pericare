@@ -32,7 +32,7 @@ export default function Header() {
       name: "ბავშვი",
     },
     {
-      name: "უკრაინია",
+      name: "უკრაინა",
     },
     {
       name: "ჩვენს შესახებ",
