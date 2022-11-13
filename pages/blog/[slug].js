@@ -13,7 +13,7 @@ export default function PostPage({
   return (
     <>
       <div className="px-4 pt-4 md:px-0 mb-10">
-        <img src={cover_image} alt="" />
+        <img src={cover_image} alt="" className="h-[60vw] md:h-[30vw]" />
         <h1 className="text-3xl my-6">{title}</h1>
         <div>
           <ReactMarkdown>{content}</ReactMarkdown>
