@@ -35,7 +35,7 @@ export default function Header() {
       name: "უკრაინა",
     },
     {
-      name: "ჩვენს შესახებ",
+      name: "ჩვენ შესახებ",
       link: "/about_us",
     },
   ];
