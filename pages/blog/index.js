@@ -3,12 +3,12 @@ import path from "path";
 import matter from "gray-matter";
 import Posts from "../../components/Posts";
 
-export default function AllBlogs({posts}) {
+export default function AllBlogs({ posts }) {
   return (
     <div>
       <Posts posts={posts} />
     </div>
-  )
+  );
 }
 
 export async function getStaticProps() {
@@ -34,9 +34,13 @@ export async function getStaticProps() {
     };
   });
 
+  const newPosts = posts.sort(
+    (a, b) => a.frontmatter.sort_by - b.frontmatter.sort_by
+  );
+
   return {
     props: {
-      posts: posts,
+      posts: newPosts,
     },
   };
 }

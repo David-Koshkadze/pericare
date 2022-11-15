@@ -1,14 +1,14 @@
 import React, { useState, useRef } from "react";
 
 let videoLinks = [
-  "https://www.youtube.com/embed/s1X3587bRTk",
-  "https://www.youtube.com/embed/YOzsLDhr4L0",
-  "https://www.youtube.com/embed/IYYMI2FnPC8",
-  "https://www.youtube.com/embed/tq4ZerLaS2U",
+  "https://www.youtube.com/embed/h9kb7d5b0v8",
+  "https://www.youtube.com/embed/wvtGaaI96PY",
+  "https://www.youtube.com/embed/24ArDzEZDlE",
+  "https://www.youtube.com/embed/G4qNP8yXYPQ"
 ];
 
 export default function VideoGallery() {
-  const [activeVideo, setActiveVideo] = useState(videoLinks[2]);
+  const [activeVideo, setActiveVideo] = useState(videoLinks[0]);
 
   return (
     <div className="text-center w-full mt-8">
@@ -37,7 +37,7 @@ export default function VideoGallery() {
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullscreen
+                allowFullScreen
                 controls="0"
               ></iframe>
             </div>
