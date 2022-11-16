@@ -6,7 +6,7 @@ export default function Post({ post }) {
       <img
         src={post.frontmatter.cover_image}
         alt=""
-        className="h-[275px] mx-auto"
+        className="h-[275px] w-full mx-auto object-cover"
       />
       <div className="px-4 pb-4 flex flex-col ">
         <p className="text-lg text-[#474775] my-3">{post.frontmatter.title}</p>

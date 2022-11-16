@@ -72,12 +72,12 @@ export default function Header() {
             </div>
           ))}
           <div className="mx-auto mt-10 flex gap-8">
-            <Link href="https://www.facebook.com/Pericare">
-              <FaFacebookF className="header-icon w-6 h-6"/>
-            </Link>
-            <Link href="youtube.com">
+            <a href="https://www.facebook.com/Pericare" target="_blank">
+              <FaFacebookF className="header-icon w-6 h-6" />
+            </a>
+            <a href="https://www.youtube.com/@pericare" target="_blank">
               <FaYoutube className="header-icon w-6 h-6" />
-            </Link>
+            </a>
           </div>
         </div>
       ) : null}
@@ -94,12 +94,12 @@ export default function Header() {
 
           <div className="flex gap-6 items-center">
             <div className="flex gap-5">
-              <Link href="https://www.facebook.com/Pericare">
+              <a href="https://www.facebook.com/Pericare" target="_blank">
                 <FaFacebookF className="header-icon" />
-              </Link>
-              <Link href="youtube.com">
+              </a>
+              <a href="https://www.youtube.com/@pericare" target="_blank">
                 <FaYoutube className="header-icon" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

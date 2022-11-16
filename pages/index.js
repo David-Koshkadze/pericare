@@ -46,9 +46,13 @@ export async function getStaticProps() {
     };
   });
 
+  const newPosts = posts.sort(
+    (a, b) => a.frontmatter.sort_by - b.frontmatter.sort_by
+  );
+
   return {
     props: {
-      posts: posts,
+      posts: newPosts,
     },
   };
 }
