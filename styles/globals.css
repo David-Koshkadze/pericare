@@ -16,7 +16,7 @@
   }
 
   .nav-link {
-    @apply px-4 hover:bg-[#54b6c4] cursor-pointer justify-center items-center flex flex-1 text-[#474775] border-l-[1px];
+    @apply px-4 hover:bg-[#54b6c4] cursor-pointer justify-center items-center flex flex-1 text-[#474775] border-l-[1px] whitespace-nowrap;
   }
 
   .nav__items:nth-last-child() {
