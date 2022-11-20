@@ -35,7 +35,7 @@ export default function Header() {
       name: t("child"),
     },
     {
-      name: t("ukraine_war"),
+      name: t("ომი ukraine_warში"),
     },
     {
       name: "ჩვენ შესახებ",
@@ -93,7 +93,7 @@ export default function Header() {
         </div>
       ) : null}
 
-      <header className="w-full mt-2 hidden md:block">
+      <header className="w-full hidden md:block">
         <div className="flex w-full justify-between">
           <Link href="/">
             <img

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Post({ post }) {
   return (
-    <div className="border transition-all h-content relative">
+    <div className="border transition-all h-content relative bg-white">
       <img
         src={post.frontmatter.cover_image}
         alt=""
