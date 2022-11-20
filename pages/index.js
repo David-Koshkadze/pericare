@@ -7,7 +7,12 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
+
 export default function Home({ posts }) {
+  const { t } = useTranslation();
+
   return (
     <>
       <Head>
@@ -16,6 +21,8 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <h1>{t("blog")}</h1>
+
       <Hero />
       <VideoGallery />
       <Posts posts={posts.slice(0, 6)} />
@@ -23,7 +30,7 @@ export default function Home({ posts }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }) {
   // Get files from the posts dir
   const files = fs.readdirSync(path.join("posts"));
 
@@ -53,6 +60,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: newPosts,
+      ...(await serverSideTranslations(locale)),
     },
   };
 }

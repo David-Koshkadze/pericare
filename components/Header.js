@@ -2,9 +2,12 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useTranslation } from "next-i18next";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (isOpen) {
@@ -16,23 +19,23 @@ export default function Header() {
 
   const categoryLinks = [
     {
-      name: "ბლოგი",
+      name: t("blog"),
       link: "/blog",
     },
     {
-      name: "ორსულობა",
+      name: t("pregnancy"),
     },
     {
-      name: "მშობიარობა",
+      name: t("childbirth"),
     },
     {
-      name: "ახალშობილი",
+      name: t("baby"),
     },
     {
-      name: "ბავშვი",
+      name: t("child"),
     },
     {
-      name: "უკრაინა",
+      name: t("ukraine_war"),
     },
     {
       name: "ჩვენ შესახებ",
@@ -72,10 +75,18 @@ export default function Header() {
             </div>
           ))}
           <div className="mx-auto mt-10 flex gap-8">
-            <a href="https://www.facebook.com/Pericare" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.facebook.com/Pericare"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebookF className="header-icon w-6 h-6" />
             </a>
-            <a href="https://www.youtube.com/@pericare" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.youtube.com/@pericare"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaYoutube className="header-icon w-6 h-6" />
             </a>
           </div>
@@ -94,10 +105,18 @@ export default function Header() {
 
           <div className="flex gap-6 items-center">
             <div className="flex gap-5">
-              <a href="https://www.facebook.com/Pericare" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.facebook.com/Pericare"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebookF className="header-icon" />
               </a>
-              <a href="https://www.youtube.com/@pericare" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.youtube.com/@pericare"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaYoutube className="header-icon" />
               </a>
             </div>
