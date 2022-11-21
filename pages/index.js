@@ -8,11 +8,8 @@ import path from "path";
 import matter from "gray-matter";
 
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useTranslation } from "next-i18next";
 
 export default function Home({ posts }) {
-  const { t } = useTranslation();
-
   return (
     <>
       <Head>
@@ -20,8 +17,6 @@ export default function Home({ posts }) {
         <meta name="description" content="Pericare" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <h1>{t("blog")}</h1>
 
       <Hero />
       <VideoGallery />
