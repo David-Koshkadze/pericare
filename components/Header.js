@@ -35,10 +35,10 @@ export default function Header() {
       name: t("child"),
     },
     {
-      name: t("ომი ukraine_warში"),
+      name: t("ukraine_war"),
     },
     {
-      name: "ჩვენ შესახებ",
+      name: t("about_us"),
       link: "/about_us",
     },
   ];

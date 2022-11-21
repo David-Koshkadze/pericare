@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Posts from "../../components/Posts";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function AllBlogs({ posts }) {
   return (
@@ -11,7 +12,7 @@ export default function AllBlogs({ posts }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps({locale}) {
   // Get files from the posts dir
   const files = fs.readdirSync(path.join("posts"));
 
@@ -41,6 +42,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: newPosts,
+      ...(await serverSideTranslations(locale)),
     },
   };
 }

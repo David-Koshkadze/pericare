@@ -21,8 +21,6 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>{t("blog")}</h1>
-
       <Hero />
       <VideoGallery />
       <Posts posts={posts.slice(0, 6)} />

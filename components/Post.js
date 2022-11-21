@@ -1,6 +1,9 @@
+import { useTranslation } from "next-i18next";
 import Link from "next/link";
 
 export default function Post({ post }) {
+  const { t } = useTranslation();
+
   return (
     <div className="border transition-all h-content relative bg-white">
       <img
@@ -16,7 +19,7 @@ export default function Post({ post }) {
 
         <Link href={`/blog/${post.slug}`}>
           <span className="absolute bottom-3 uppercase cursor-pointer w-28 text-black font-bold font-sans text-sm rounded-md px-2 py-3 bg-[#54b6c4] hover:bg-[#91dae5]">
-            მეტის ნახვა
+            {t("see_more")}
           </span>
         </Link>
       </div>
