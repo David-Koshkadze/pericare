@@ -14,7 +14,7 @@ export default function AllBlogs({ posts }) {
 
 export async function getStaticProps({ locale }) {
   // Get files from the posts dir
-  const files = fs.readdirSync(path.join("posts"));
+  const files = fs.readdirSync(path.join("posts", locale));
 
   // Get slug and frontmatter from posts
   const posts = files.map((filename) => {
@@ -23,7 +23,7 @@ export async function getStaticProps({ locale }) {
 
     // Get frontmatter
     const markdownWithMeta = fs.readFileSync(
-      path.join("posts", filename),
+      path.join("posts", locale, filename),
       "utf-8"
     );
 

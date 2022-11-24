@@ -34,20 +34,17 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 }
 
-export async function getStaticProps({ params: { slug }, locale, locales }) {
+export async function getStaticProps({ params: { slug }, locale }) {
   const markdownWithMeta = fs.readFileSync(
-    path.join("posts", slug + ".md"),
+    path.join("posts", locale, slug + ".md"),
     "utf-8"
   );
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
-
-  console.log("Locale:", locale);
-  console.log("Locales:", locales);
 
   return {
     props: {
