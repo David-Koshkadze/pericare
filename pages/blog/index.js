@@ -12,7 +12,7 @@ export default function AllBlogs({ posts }) {
   );
 }
 
-export async function getStaticProps({locale}) {
+export async function getStaticProps({ locale }) {
   // Get files from the posts dir
   const files = fs.readdirSync(path.join("posts"));
 

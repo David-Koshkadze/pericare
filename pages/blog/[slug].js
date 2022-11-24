@@ -2,14 +2,13 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from "react-markdown";
 
 export default function PostPage({
   frontmatter: { title, cover_image },
   slug,
   content,
 }) {
-
   return (
     <>
       <div className="px-4 pt-4 md:px-0 mb-10">
@@ -23,7 +22,7 @@ export default function PostPage({
   );
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths({ locale }) {
   const files = fs.readdirSync(path.join("posts"));
 
   const paths = files.map((filename) => ({
