@@ -8,7 +8,7 @@ export default function Post({ post }) {
     <div className="border transition-all h-content relative bg-white">
       <img
         src={post.frontmatter.cover_image}
-        alt=""
+        alt="img_cover"
         className="h-[275px] w-full mx-auto object-cover"
       />
       <div className="px-4 pb-4 flex flex-col ">

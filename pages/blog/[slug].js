@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 import ReactMarkdown from "react-markdown";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function PostPage({
   frontmatter: { title, cover_image },
@@ -22,7 +23,7 @@ export default function PostPage({
   );
 }
 
-export async function getStaticPaths({ locale }) {
+export async function getStaticPaths() {
   const files = fs.readdirSync(path.join("posts"));
 
   const paths = files.map((filename) => ({
@@ -37,7 +38,7 @@ export async function getStaticPaths({ locale }) {
   };
 }
 
-export async function getStaticProps({ params: { slug } }) {
+export async function getStaticProps({ params: { slug }, locale, locales }) {
   const markdownWithMeta = fs.readFileSync(
     path.join("posts", slug + ".md"),
     "utf-8"
@@ -45,11 +46,15 @@ export async function getStaticProps({ params: { slug } }) {
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
+  console.log("Locale:", locale);
+  console.log("Locales:", locales);
+
   return {
     props: {
       frontmatter,
       slug,
       content,
+      ...(await serverSideTranslations(locale)),
     },
   };
 }

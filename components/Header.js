@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useTranslation } from "next-i18next";
 
-export default function Header() {
+export default function Header({ locale }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeLang, setActiveLang] = useState(locale);
+
+  console.log(activeLang)
 
   const { t } = useTranslation();
 
@@ -16,6 +20,16 @@ export default function Header() {
 
     return () => (document.body.style.overflowY = "auto");
   }, [isOpen, setIsOpen]);
+
+  // Router to change locale
+
+  const router = useRouter();
+
+  const { pathname, asPath, query } = router;
+
+  const changeLocale = (lang) => {
+    router.push({ pathname, query }, asPath, { locale: lang });
+  };
 
   const categoryLinks = [
     {
@@ -104,6 +118,21 @@ export default function Header() {
           </Link>
 
           <div className="flex gap-6 items-center">
+            <div className="flex gap-5">
+              <p
+                onClick={() => changeLocale("ka")}
+                className="cursor-pointer font-semibold text-teal-500"
+              >
+                ქარ
+              </p>
+              <p
+                onClick={() => changeLocale("en")}
+                className="cursor-pointer font-semibold "
+              >
+                Eng
+              </p>
+            </div>
+
             <div className="flex gap-5">
               <a
                 href="https://www.facebook.com/Pericare"

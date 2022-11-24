@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 let videoLinks = [
   "https://www.youtube.com/embed/h9kb7d5b0v8",
@@ -10,9 +11,11 @@ let videoLinks = [
 export default function VideoGallery() {
   const [activeVideo, setActiveVideo] = useState(videoLinks[0]);
 
+  const {t} = useTranslation()
+
   return (
     <div className="text-center w-full mt-8">
-      <h1 className="heading-txt mb-4">ვიდეო გალერეა</h1>
+      <h1 className="heading-txt mb-4">{t("video_gallery")}</h1>
       <div className="w-full h-auto flex">
         <div className="w-2/3 mr-2">
           <iframe
