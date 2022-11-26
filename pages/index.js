@@ -8,7 +8,6 @@ import path from "path";
 import matter from "gray-matter";
 
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useTranslation } from "next-i18next";
 
 export default function Home({ posts }) {
   return (
