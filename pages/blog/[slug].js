@@ -23,8 +23,10 @@ export default function PostPage({
   );
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths({ locales }) {
   const files = fs.readdirSync(path.join("posts"));
+
+  console.log("Locales", locales);
 
   const paths = files.map((filename) => ({
     params: {
@@ -40,7 +42,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug }, locale }) {
   const markdownWithMeta = fs.readFileSync(
-    path.join("posts/", locale, slug + ".md"),
+    path.join("posts", locale, slug + ".md"),
     "utf-8"
   );
 
