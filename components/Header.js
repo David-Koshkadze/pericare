@@ -5,11 +5,12 @@ import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useTranslation } from "next-i18next";
 
-export default function Header({ locale }) {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLang, setActiveLang] = useState(locale);
+  // const [activeLang, setActiveLang] = useState(locale);
 
-  console.log(activeLang)
+  // console.log(activeLang)
+  // console.log(locale)
 
   const { t } = useTranslation();
 
@@ -30,6 +31,8 @@ export default function Header({ locale }) {
   const changeLocale = (lang) => {
     router.push({ pathname, query }, asPath, { locale: lang });
   };
+
+  // - - - - - - - - - - - - - - - - - - 
 
   const categoryLinks = [
     {
@@ -121,13 +124,13 @@ export default function Header({ locale }) {
             <div className="flex gap-5">
               <p
                 onClick={() => changeLocale("ka")}
-                className="cursor-pointer font-semibold text-teal-500"
+                className={`cursor-pointer font-semibold ${router.locale === "ka" ? 'text-teal-500}' : ''}`}
               >
                 ქარ
               </p>
               <p
                 onClick={() => changeLocale("en")}
-                className="cursor-pointer font-semibold "
+                className={`cursor-pointer font-semibold ${router.locale === "en" ? 'text-teal-500}' : ''}`}
               >
                 Eng
               </p>

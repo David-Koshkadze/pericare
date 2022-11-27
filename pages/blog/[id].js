@@ -6,14 +6,14 @@ import ReactMarkdown from "react-markdown";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
-export default function PostPage({cover_image, title, contentHtml }) {
+export default function PostPage({ contentHtml }) {
   // const { cover_image, title } = frontmatter;
 
   return (
     <>
       <div className="px-4 pt-4 md:px-0 mb-10">
-        <img src={cover_image} alt="" className="h-[60vw] md:h-[30vw]" />
-        <h1 className="text-3xl my-6">{title}</h1>
+        {/* <img src={cover_image} alt="" className="h-[60vw] md:h-[30vw]" />
+        <h1 className="text-3xl my-6">{title}</h1> */}
         <div>
           <ReactMarkdown>{contentHtml}</ReactMarkdown>
         </div>

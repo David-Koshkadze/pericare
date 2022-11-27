@@ -1,8 +1,23 @@
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Post({ post }) {
   const { t } = useTranslation();
+
+  const { locale } = useRouter();
+
+  console.log("Post Slug: ", post.id);
+  console.log("Post Locale: ", locale);
+
+  // Get correct link
+  let blogLink = '';
+
+  if (locale === "ka") {
+    blogLink = `/blog/${post.id}`
+  } else if (locale === "en") {
+    blogLink = `/blog/${post.id}`
+  }
 
   return (
     <div className="border transition-all h-content relative bg-white">
@@ -17,7 +32,7 @@ export default function Post({ post }) {
           {post.excerpt}
         </p>
 
-        <Link href={`/blog/${post.slug}`}>
+        <Link href={blogLink}>
           <span className="absolute bottom-3 uppercase cursor-pointer w-28 text-black font-bold font-sans text-sm rounded-md px-2 py-3 bg-[#54b6c4] hover:bg-[#91dae5]">
             {t("see_more")}
           </span>
