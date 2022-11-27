@@ -7,14 +7,14 @@ export default function Post({ post }) {
   return (
     <div className="border transition-all h-content relative bg-white">
       <img
-        src={post.frontmatter.cover_image}
+        src={post.cover_image}
         alt="img_cover"
         className="h-[275px] w-full mx-auto object-cover"
       />
       <div className="px-4 pb-4 flex flex-col ">
-        <p className="text-lg text-[#474775] my-3">{post.frontmatter.title}</p>
+        <p className="text-lg text-[#474775] my-3">{post.title}</p>
         <p className="text-left mb-16 overflow-hidden text-ellipsis">
-          {post.frontmatter.excerpt}
+          {post.excerpt}
         </p>
 
         <Link href={`/blog/${post.slug}`}>
