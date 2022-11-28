@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useTranslation } from "next-i18next";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  // const [activeLang, setActiveLang] = useState(locale);
+
+  // console.log(activeLang)
+  // console.log(locale)
 
   const { t } = useTranslation();
 
@@ -16,6 +21,18 @@ export default function Header() {
 
     return () => (document.body.style.overflowY = "auto");
   }, [isOpen, setIsOpen]);
+
+  // Router to change locale
+
+  const router = useRouter();
+
+  const { pathname, asPath, query } = router;
+
+  const changeLocale = (lang) => {
+    router.push({ pathname, query }, asPath, { locale: lang });
+  };
+
+  // - - - - - - - - - - - - - - - - - -
 
   const categoryLinks = [
     {
@@ -35,10 +52,10 @@ export default function Header() {
       name: t("child"),
     },
     {
-      name: t("ომი ukraine_warში"),
+      name: t("ukraine_war"),
     },
     {
-      name: "ჩვენ შესახებ",
+      name: t("about_us"),
       link: "/about_us",
     },
   ];
@@ -90,6 +107,26 @@ export default function Header() {
               <FaYoutube className="header-icon w-6 h-6" />
             </a>
           </div>
+
+          <div className="mx-auto mt-4 flex gap-8">
+            <p
+              onClick={() => changeLocale("ka")}
+              className={`cursor-pointer font-semibold ${
+                router.locale === "en" ? "text-teal-500}" : ""
+              }`}
+            >
+              ქარ
+            </p>
+
+            <p
+              onClick={() => changeLocale("en")}
+              className={`cursor-pointer font-semibold ${
+                router.locale === "en" ? "text-teal-500}" : ""
+              }`}
+            >
+              Eng
+            </p>
+          </div>
         </div>
       ) : null}
 
@@ -104,6 +141,25 @@ export default function Header() {
           </Link>
 
           <div className="flex gap-6 items-center">
+            <div className="flex gap-5">
+              <p
+                onClick={() => changeLocale("ka")}
+                className={`cursor-pointer font-semibold ${
+                  router.locale === "ka" ? "text-teal-500}" : ""
+                }`}
+              >
+                ქარ
+              </p>
+              <p
+                onClick={() => changeLocale("en")}
+                className={`cursor-pointer font-semibold ${
+                  router.locale === "en" ? "text-teal-500}" : ""
+                }`}
+              >
+                Eng
+              </p>
+            </div>
+
             <div className="flex gap-5">
               <a
                 href="https://www.facebook.com/Pericare"

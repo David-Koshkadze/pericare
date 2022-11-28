@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import { useTranslation } from "next-i18next";
 
 function FooterIcon({ children, link }) {
   return (
@@ -13,13 +14,15 @@ function FooterIcon({ children, link }) {
 }
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="w-full bg-[#666666] pt-10 pb-10 text-white ">
       <div className="max-w-[1050px] mx-auto px-4 lg:px-0 relative">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="footer__links flex flex-col gap-2 w-auto md:w-full ">
-            <a href="#">კონტაქტი</a>
-            <Link href="/about_us">ჩვენ შესახებ</Link>
+            <a href="#">{t("contact_us")}</a>
+            <Link href="/about_us">{t("about_us")}</Link>
           </div>
 
           <div className="mt-10 md:mt-0">
@@ -34,10 +37,9 @@ export default function Footer() {
               </div>
 
               <div className="w-full">
-                <img className="h-14" src="/assets/women_logo.png" />
+                <img className="h-14 max-w-none" src="/assets/women_logo.png" />
                 <p>
-                  ძლიერი, თანასწორუფლებიანი, აღიარებული და ბედნიერი ქალი -
-                  თავისუფალ, უსაფრთხო, სამართლიან სამყაროში.
+                  {t("footer_brand")}
                 </p>
               </div>
             </div>
