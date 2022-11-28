@@ -14,7 +14,7 @@ function FooterIcon({ children, link }) {
 }
 
 export default function Footer() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <footer className="w-full bg-[#666666] pt-10 pb-10 text-white ">
@@ -37,10 +37,9 @@ export default function Footer() {
               </div>
 
               <div className="w-full">
-                <img className="h-14" src="/assets/women_logo.png" />
+                <img className="h-14 max-w-none" src="/assets/women_logo.png" />
                 <p>
-                  ძლიერი, თანასწორუფლებიანი, აღიარებული და ბედნიერი ქალი -
-                  თავისუფალ, უსაფრთხო, სამართლიან სამყაროში.
+                  {t("footer_brand")}
                 </p>
               </div>
             </div>
