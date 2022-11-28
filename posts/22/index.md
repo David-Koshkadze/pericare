@@ -1,7 +1,7 @@
 ---
 title: 'პოსტნატალური PTSD-ს ნიშნები და სიმპტომები'
 date: 'March 7, 2021'
-sort_by: 21
+sort_by: 22
 excerpt: 'პოსტნატალური PTSD-ს ნიშნები და სიმპტომები, შესაძლოა, იყოს:'
 cover_image: '/images/posts/22.png'
 ---
