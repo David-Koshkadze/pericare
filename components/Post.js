@@ -7,16 +7,13 @@ export default function Post({ post }) {
 
   const { locale } = useRouter();
 
-  console.log("Post Slug: ", post.id);
-  console.log("Post Locale: ", locale);
-
   // Get correct link
   let blogLink = '';
 
   if (locale === "ka") {
     blogLink = `/blog/${post.id}`
   } else if (locale === "en") {
-    blogLink = `/blog/${post.id}`
+    blogLink = `/en/blog/${post.id}`
   }
 
   return (

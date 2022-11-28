@@ -1,22 +1,21 @@
 ---
-title: 'ქალის ფსიქიკური ჯანმრთელობა ორსულობის დროს'
+title: 'Woman’s Mental Health During Pregnancy'
 date: 'March 7, 2021'
 sort_by: 1
-excerpt: 'ბლოგის მიზანია ფსიქოგანათლების მიწოდება ქალებისთვის'
+excerpt: 'The purpose of the blog is to provide psychoeducation to women'
 cover_image: '/images/posts/1.jpg'
 ---
 
-ბლოგის მიზანია ფსიქოგანათლების მიწოდება ქალებისთვის, რადგან ფსიქოგანათლება ამცირებს შფოთვას და ზრდის დამხმარე სერვისებით სარგებლობის ალბათობას, ასევე საზოგადოების ინფორმირება  და განსაკუთრებით სამედიცინო პერსონალის მგრძნობელობის გაზრდა, რადგან სირთულეების ადრეულ ეტაპზე ამოცნობა და პრევენციული მექანიზმები მნიშვნელოვნად ამცირებს არასასურველ შედეგებს. 
+Woman’s Mental Health During Pregnancy
 
-ფსიქიკური ჯანმრთელობის საკითხები ჯერ კიდევ რჩება ტაბუდადებულ თემად, რაც სტიგმას იწვევს და აძლიერებს. განსაკუთრებული სტიგმის მატარებელია ქალების ფსიქიკური ჯანმრთელობა პერინატალურ პერიოდში, რადგან ჯერ კიდევ აქტუალურია მითები და სტერეოტიპები  „იდეალური“ ორსულობის და „იდეალური“ დედობის შესახებ. ნაკლებად მისაწვდომია მხარდამჭერი სერვისები, ნაკლებია მგრძნობელობა სამედიცინო პერსონალის და ზოგადად საზოგადოების მხრიდან.
+The purpose of the blog is to provide psychoeducation to women, as psychoeducation reduces anxiety and increases the likelihood of using support services, as well as to inform the public and especially to increase the sensitivity of medical personnel, as early recognition of difficulties and preventive mechanisms significantly reduce adverse outcomes.
 
-როგორც ორსულობა, ისე ორსულობის შემდგომი პერიოდი რთული გამოწვევების წინაშე აყენებს ქალს. სხეულის ცვლილება, გაზრდილი პასუხისმგებლობა, დღის რუტინის ცვლილება,  ძილის რეჟიმის დარღვევა, ახალ როლთან ადაპტაცია, მოლოდინები საკუთარი თავის, პარტნიორის და ოჯახის წევრების მიმართ, ეს ყველაფერი  გავლენას ახდენს ქალის  ფიზიკურ და ფსიქიკურ ჯანმრთელობაზე, ასევე მის  სოციალურ ცხოვრებაზე.  
+Mental health issues still remain a taboo subject, which causes and reinforces stigma. Women's mental health in the perinatal period carries a special stigma, because myths and stereotypes about the "ideal" pregnancy and "ideal" motherhood are still relevant. Support services are less accessible, and there is less sensitivity on the part of medical staff and the general public.
 
-ასევე ხშირია ამ პერიოდში ძველი ცხოვრებისული ტრავმების და სირთულეების გააქტიურება და ფსიქიკაში მათი ხელახალი გადამუშავების მცდელობა. 
+Both pregnancy and the post-pregnancy period present a woman with difficult challenges. Body changes, increased responsibilities, changes in daily routine, disruption of sleep patterns, adaptation to a new role, expectations towards oneself, partner and family members, all these affect a woman's physical and mental health, as well as her social life.
 
-ამ პერიოდში მიმდინარე ცვლილებები, შესაძლოა იწვევდეს შიშს, შფოთვას, გაუცხოებას საკუთარ თავთან, საკუთარ სხეულთან. 
-ხშირად ორსულობის და ორსულობის შემდგომ პერიოდში ჩნდება ისეთი ფიქრები, ისეთი ემოციები, რომლებიც ქალს აშინებს, დანაშაულის გრძნობას უჩენს, საკუთარ თავში - საკუთარ „ნორმალურობაში“ აეჭვებს, რაც საზოგადოებაში არსებული წარმოდგენების ფონზე, კიდევ უფრო მტკივნეული ხდება. 
+During this period it is also common to activate old life traumas and difficulties and try to reprocess them in the psyche. The changes taking place during this period may cause fear, anxiety, alienation from oneself and one's body.
 
-ასეთ შესაძლო ფიქრების მაგალითია - დაეჭვება შვილის ყოლის სურვილთან დაკავშირებით, შიში საკუთარი ჯანმრთელობასთან და უსაფრთხოებასთან მიმართებაში,  ასევე  შესაძლოა გაჩნდეს სუიციდური ფიქრებიც. მსგავსი შინაარსის ფიქრები არ არის იშვიათი. შესაბამისი მხარდაჭერის შემთხვევაში შეგვიძლია მნიშვნელოვნად გავაუმჯობესოთ ქალის მდგომარეობა. 
+Often, during pregnancy and post-pregnancy, such thoughts and emotions appear that frighten a woman, make her feel guilty, doubt herself - her own "normality", which becomes even more painful in the background of the ideas in society.
 
-
+Examples of such possible thoughts are doubts about the desire to have children, fear about one's health and safety, and suicidal thoughts may also arise. Thoughts of similar content are not uncommon. With appropriate support, we can significantly improve the condition of women.

@@ -1,32 +1,38 @@
 ---
-title: 'პერინატალური პერიოდისთვის დამახასიათებელი შიშები'
+title: 'Fear Characteristics Of The Perinatal Period'
 date: 'March 7, 2021'
 sort_by: 2
-excerpt: 'ორსული ქალები, ხშირად, ძალიან ღელავენ მოსალოდნელი მშობიარობის გამო და შიშისგან ღამეებსაც ათენებენ.'
+excerpt: 'Pregnant women are often very worried about the impending birth and stay awake at night due to fear.'
 cover_image: '/images/posts/2.jpg'
 ---
 
-ორსული ქალები, ხშირად, ძალიან ღელავენ მოსალოდნელი მშობიარობის გამო და შიშისგან ღამეებსაც ათენებენ. მათი შიშები მრავალფეროვანია, ისინი  ღელავენ მშობიარობის შესაძლო გართულებებზე, ბავშვის ჯანმრთელობაზე, გაუთვალისწინებელ სირთულეებზე და ა.შ.  მათ შეიძლება ჰქონდეთ შემაწუხებელი კითხვები,  ფიქრები და ფანტაზიები, როგორიცაა: 
+Fear Characteristics Of The Perinatal Period
 
--	„ყოველთვის კარგ განწყობაზე არ ვარ, ეს ხომ არ ავნებს ჩემს მუცლადმყოფ ბავშვს?“
--	„ზოგჯერ, მეშინია იმის, რაც მელოდება. ეს ნორმალურია?“
--	„როგორ შევძლებ ჩემს შვილთან ურთიერთობას და მისი განვითარების ხელშეწყობას?“
--	„რა უნდა ვქნა მაშინ, თუ ყველაფრის მიუხედავად ბავშვი იტირებს და არ დაიძინებს?“
--	„რა უნდა ვქნა, თუ ჩემს ცხოვრებაზე, ჩემს მოთხოვნილებებზე სრულად მომიწევს უარის თქმა?“
--	„ხომ არ გავანებივრებ ბავშვს, თუ მისი მოთხოვნილებები დაუყოვნებლივ დაკმაყოფილდება?“ 
--	„როგორ უნდა მოვახერხო, რომ ბავშვზე არ გადავიდეს ჩემი სტრესი?“ 
+Pregnant women are often very worried about the impending birth and stay awake at night due to fear. Their fears are diverse, they worry about possible complications of childbirth, the health of the child, unforeseen difficulties, etc. They may have disturbing questions, thoughts, and fantasies, such as:
 
-ორსულები მშობიარობის დაწყების ცრუ სიმპტომებისა და რეალური ნიშნების ერთმანეთისგან გარჩევის სირთულეზეც ხშირად ფიქრობენ. არ აქვს მნიშვნელობა სიმპტომები რეალურია თუ მოჩვენებითი, ნებისმიერი დისკომფორტისა და უჩვეულო ნიშნების დროს ორსულმა ექიმს უნდა მიმართოს. მნიშვნელოვანია, რომ ორსული მუდმივ კონტაქტში იყოს ექიმთან, რომელიც მას, მისი სიმპტომებიდან გამომდინარე ურჩევს, როგორ მოიქცეს, რაც ორსულ ქალბატონს სამშობიაროში დროულად მისვლის შესაძლებლობას მისცემს.
-მომავალ დედებს ვერ წარმოუდგენიათ, რომ სამშობიარო ბლოკში სიმშვიდის შენარჩუნება შესაძლებელია, თუმცა ეს რთული არ არის. მათ უნდა გააცნობიერონ, რომ პროფესიონალების გარემოცვაში იმყოფებიან და მშობიარობის პროცესი აქტიური მეთვალყურეობის ქვეშ მიმდინარეობს.
+- "I'm not in a good mood always, will that hurt my unborn baby?"
+- “Sometimes, I'm afraid of what awaits me. Is it normal?"
+- "How can I communicate with my child and support his development?"
+- "What should I do if, despite everything, the child cries and does not sleep?"
+- "What should I do if I have to completely give up my life, my needs?"
+- "Wouldn't I pamper the child if his needs are met immediately?"
+- "How should I manage so that my stress does not transfer to the child?"
 
-დედებმა უნდა გააცნობიერონ, რომ მათი ემოციები ბავშვსაც გადაედება. დედა და ბავშვი ერთი გუნდია, რის გამოც მნიშვნელოვანია, რომ დედამ სიმშვიდე შეინარჩუნოს, რათა მშობიარობის პროცესი ორივესთვის მარტივად წარიმართოს.
-ორსულებს ასევე ეშინიათ მშობიარობის დროს შორისის ჩაჭრის საჭიროების წარმოქმნის და ფიქრობენ, რომ პროცედურა მტკივნეულია, თუმცა ეს ასე არ არის და ეპიზიოტომია უმტკივნეულოდ ტარდება.
-ორსულმა ქალბატონებმა გესტაციურ პერიოდში პროფესიონალებისგან რჩევები რეგულარულად უნდა მიიღონ. ეს მათ არასაჭირო შიშებისა და  ცრურწმენების ზეგავლენისგან დაიცავს.
+Pregnant women often think about the difficulty of distinguishing between false symptoms and real signs of labor. It doesn't matter if the symptoms are real or fake, pregnant women should consult a doctor for any discomfort or unusual symptoms. It is important for to be in constant contact with the doctor, who advises her, based on her symptoms, how to behave, which will give the pregnant woman the opportunity to arrive at the maternity hospital on time.
 
-ორსულებზე ძალიან კარგად მოქმედებს იოგა, რაც მათ განტვირთვაში ეხმარება. მნიშვნელოვანია სხვა ორსულებთან გამოცდილების, განცდებისა და მოლოდინების გაზიარება და აზრების გაცვლა-გამოცვლაც.
-ორსულმა ქალბატონმა დასვენებისთვის ნებისმიერი შესაძლებლობა უნდა გამოიყენოს და თავი გაინებივროს. განწყობის ასამაღლებლად და მშობიარობის მიმართ შიშების გასანეიტრალებლად, მნიშვნელოვანია, ორსულმა მის გარშემო დადებითი ატმოსფერო შექმნას. სქესის გამოცნობის ცერემონია, ბავშვის ტანსაცმლისა და ნივთების შეძენა, ჩვილის ოთახის მორთვა, ფოტოსესიების მოწყობა - ეს ყოველივე ორსულს ყურადღების გადატანასა და მშობიარობის შიშების გადალახვაში დაეხმარება.
+Expectant mothers cannot imagine that it is possible to keep calm in the maternity ward, although it is not difficult. They should understand that they are surrounded by professionals and the birthing process is under active supervision.
+Mothers need to realize that their emotions will also be transferred to the child. Mother and baby are a team, so it is important for the mother to remain calm so that the birthing process goes smoothly for both of them.
 
-მთავარია, რომ ორსულმა ირწმუნოს საკუთარი თავის და ენდოს საკუთარ ორგანიზმს. 
+Pregnant women also fear the need for a c-section during labor and think that the procedure is painful, but it is not and episiotomy is painless.
+
+Pregnant women should regularly receive advice from professionals during pregnancy. This will protect them from the influence of unnecessary fears and prejudices.
+
+Yoga has a very good effect on pregnant women, which helps them relax.
+
+A pregnant woman should use any opportunity to relax and pamper herself. It is important for a pregnant woman to create a positive atmosphere around her to raise her mood and neutralize her fears about childbirth. The ceremony of guessing the gender, buying clothes and things for the baby, decorating the baby's room, arranging photo sessions - all this will help the pregnant woman to distract herself and overcome her fears of childbirth.
+
+The most important thing is that the pregnant woman believes in herself and trusts her body.
+
 
 
 
