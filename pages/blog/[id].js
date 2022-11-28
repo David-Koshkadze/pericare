@@ -5,7 +5,7 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 export default function PostPage({ postData }) {
   const { cover_image, title } = postData.frontmatter;
 
-  console.log("Content", postData.contentHtml)
+  // console.log("Content", postData.contentHtml)
 
   return (
     <>

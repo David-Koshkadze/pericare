@@ -16,11 +16,11 @@ export default function About_Eng() {
       </p>
       <p>
         "Pericare" is a partner of the “Society of Perinatal Psychology and
-        Psychotherapy” in Georgia and actively cooperates with the organization
+        Psychotherapy" in Georgia and actively cooperates with the organization
         within the international program "Early Life Care".
       </p>
       <p>
-        The main goal of “Pericare” is to offer support and care to parents and
+        The main goal of "Pericare" is to offer support and care to parents and
         their newborns during the process of birthing a new life. The birth of a
         child is a complex event, therefore, it is important for parents,
         medical staff and psychologists to coordinate their actions in order to
@@ -51,7 +51,7 @@ export default function About_Eng() {
         </li>
 
         <li>
-          • In woman's life Pregnancy is a period when her emotional health is
+          In woman's life Pregnancy is a period when her emotional health is
           faced with a great test. It is important for a woman to have
           information about the mental phases of pregnancy, to receive emotional
           support and to heal if she is dealing with certain risks during
@@ -59,7 +59,7 @@ export default function About_Eng() {
         </li>
 
         <li>
-          • Postpartum depression, a common problem after pregnancy, is not just
+          Postpartum depression, a common problem after pregnancy, is not just
           a personal problem, it is an indicator of a social, developmental and
           economic sustainability of the country. According to studies, if
           postpartum depression is prevented and recognized at an early stage,
@@ -69,13 +69,13 @@ export default function About_Eng() {
       </ul>
 
       <p>
-        The vision of “Pericare” is to have access to timely and effective
+        The vision of "Pericare" is to have access to timely and effective
         information and services related to perinatal mental health for all
         women, men and families, which includes the screening, prevention,
         management and care of the condition in the pre and postnatal period.
       </p>
 
-      <p className="font-bold">What does the “Pericare” service include:</p>
+      <p className="font-bold">What does the "Pericare" service include:</p>
 
       <ul>
         <li>
@@ -112,7 +112,7 @@ export default function About_Eng() {
         <li>Medical and care staff: doctors, nurses, educators;</li>
       </ul>
 
-      <p className="font-bold">Results of “Pericare”</p>
+      <p className="font-bold">Results of "Pericare"</p>
 
       <ul className="mb-8">
         <li>

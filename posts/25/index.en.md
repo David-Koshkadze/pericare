@@ -1,9 +1,9 @@
 ---
-title: 'If a woman and the family are informed about pregnancy, trouble and complications can be prevented'
-date: 'March 7, 2021'
+title: "If a woman and the family are informed about pregnancy, trouble and complications can be prevented"
+date: "March 7, 2021"
 sort_by: 25
-excerpt: 'Pregnancy is a special period of a woman's life. But often, along with joy and happiness...'
-cover_image: '/images/posts/25.jpg'
+excerpt: "Pregnancy is a special period of a woman's life. But often, along with joy and happiness..."
+cover_image: "/images/posts/25.jpg"
 ---
 
 Pregnancy is a special period of a woman's life. But often, along with joy and happiness, pregnancy turns into a period of confusion, fear, anxiety, thoughtlessness and depression. The conception of a new life, along with great expectations, is a great challenge for the body, and this responsible test awaits not only the physical, but also the mental health of a woman. The reasons for excitement may be: fear of responsibility, fear of childbirth, changes in body shape, health problems.
