@@ -32,7 +32,7 @@ export default function Header() {
     router.push({ pathname, query }, asPath, { locale: lang });
   };
 
-  // - - - - - - - - - - - - - - - - - - 
+  // - - - - - - - - - - - - - - - - - -
 
   const categoryLinks = [
     {
@@ -107,6 +107,26 @@ export default function Header() {
               <FaYoutube className="header-icon w-6 h-6" />
             </a>
           </div>
+
+          <div className="mx-auto mt-4 flex gap-8">
+            <p
+              onClick={() => changeLocale("ka")}
+              className={`cursor-pointer font-semibold ${
+                router.locale === "en" ? "text-teal-500}" : ""
+              }`}
+            >
+              ქარ
+            </p>
+
+            <p
+              onClick={() => changeLocale("en")}
+              className={`cursor-pointer font-semibold ${
+                router.locale === "en" ? "text-teal-500}" : ""
+              }`}
+            >
+              Eng
+            </p>
+          </div>
         </div>
       ) : null}
 
@@ -124,13 +144,17 @@ export default function Header() {
             <div className="flex gap-5">
               <p
                 onClick={() => changeLocale("ka")}
-                className={`cursor-pointer font-semibold ${router.locale === "ka" ? 'text-teal-500}' : ''}`}
+                className={`cursor-pointer font-semibold ${
+                  router.locale === "ka" ? "text-teal-500}" : ""
+                }`}
               >
                 ქარ
               </p>
               <p
                 onClick={() => changeLocale("en")}
-                className={`cursor-pointer font-semibold ${router.locale === "en" ? 'text-teal-500}' : ''}`}
+                className={`cursor-pointer font-semibold ${
+                  router.locale === "en" ? "text-teal-500}" : ""
+                }`}
               >
                 Eng
               </p>
