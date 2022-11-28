@@ -10,134 +10,133 @@ export default function About_Eng() {
       />
       <h1 className="mx-auto heading-txt mb-5">About Us</h1>
       <p>
-        პერინატალური ფსიქოთერაპიის საზოგადოება - „პერიქეა“ არის არასამთავრობო
-        ორგანიზაცია, რომლის მიზანია ფსიქიკური ჯანმრთელობის ხელშეწყობა
-        ორსულობამდე, ორსულობის დროს და შემდგომ პერიოდში.
+        Society of Perinatal Psychotherapy Of Georgia - "Pericare" is a
+        non-governmental organization whose aim is to promote mental health
+        before, during and after pregnancy.
       </p>
       <p>
-        „პერიქეა“ პერინატალური ფსიქოლოგიისა და ფსიქოთერაპიის საზოგადოების
-        პარტნიორია საქართველოში და აქტიურად თანამშრომლობს ორგანიზაციასთან
-        საერთაშორისო პროგრამა „Early Life Care”-ის ფარგლებში.
+        "Pericare" is a partner of the “Society of Perinatal Psychology and
+        Psychotherapy” in Georgia and actively cooperates with the organization
+        within the international program "Early Life Care".
       </p>
       <p>
-        პერიქეას მიზანია ახალი სიცოცხლის დაბადების პროცესში მხარდაჭერის და
-        ზრუნვის შეთავაზება მშობლებისა და მათი ახალშობილისთვის. ბავშვის დაბადება
-        კომპლექსური მოვლენაა, ამიტომ, მნიშვნელოვანია მშობლების, სამედიცინო
-        პერსონალის და ფსიქოლოგების კოორდინირებული და შეთანხმებული მოქმედება,
-        რათა თავიდან ავიცილოთ სირთულეები და გავუმარტივოთ მშობლებს ბავშვზე
-        ზრუნვის რთული და საპასუხისმგებლო მისია.
+        The main goal of “Pericare” is to offer support and care to parents and
+        their newborns during the process of birthing a new life. The birth of a
+        child is a complex event, therefore, it is important for parents,
+        medical staff and psychologists to coordinate their actions in order to
+        avoid difficulties and simplify the responsible mission of caring for a
+        child.
       </p>
 
       <p>
-        პერიოდი ორსულობის დაგეგმვიდან, ბავშვის დაბადების და განვითარების ერთი
-        წლის ჩათვლით, ქალის ცხოვრებაში არის დრო, როდესაც ის ემოციური
-        გამოწვევების წინაშე დგება. მნიშვნელოვანია, რომ ამ დროს ქალმა თავი არ
-        იგრძნოს მარტო, მიეცეს ემოციების გამოხატვის და გაზიარების შესაძლებლობა და
-        საჭიროების შემთხვევაში, მიიღოს ფსიქოლოგის კონსულტაცია.
+        The period from planning a pregnancy, including the birth and
+        development of a child, is a time in a woman's life when she faces
+        emotional challenges. At this time, it is important for a woman not to
+        feel alone, to be given the opportunity to express and share her
+        emotions and, if necessary, to receive counseling from a psychologist.
       </p>
 
       <p className="font-semibold  text-green-600">
-        ფსიქოგანათლების და კონსულტირების მნიშვნელობა{" "}
+        Importance of psychoeducation and counseling
       </p>
 
       <ul>
         <li>
-          ორსულობის დაგეგმვის ეტაპზე ქალებს ხშირად უწევთ ისეთ გამოწვევებთან
-          გამკლავება, როგორიცაა ლაბორატორიული კვლევები, მცირე და
-          ფართომასშტაბიანი ინვაზიური მანიპულაციები, რაც აისახება ქალის ემოციურ
-          და მენტალურ მდგომარეობაზე. შესაძლოა, ქალმა იგრძნოს უიმედობა,
-          უკონტროლობა, შიში და ა.შ. თუ ქალს ამ დროს არ მიეწოდა სათანადო ემოციური
-          მხარდაჭერა, შესაძლოა, მას განუვითარდეს ფსიქიკური ჯანმრთელობის
-          პრობლემები.
+          At the stage of pregnancy planning, women often have to deal with such
+          challenges as laboratory studies, small and large-scale invasive
+          manipulations, which affect the emotional and mental state of the
+          woman. A woman may feel hopelessness, lack of control, fear, etc. If a
+          woman is not provided with adequate emotional support during this
+          time, she may develop mental health problems.
         </li>
 
         <li>
-          ორსულობა ქალის ცხოვრებაში არის პერიოდი, როდესაც მისი ემოციური
-          ჯანმრთელობა დიდი გამოცდის წინაშე დგება. მნიშვნელოვანია, რომ ქალს
-          ჰქონდეს ინფორმაცია ორსულობის ფსიქიკური ფაზების შესახებ, მიიღოს
-          ემოციური მხარდაჭერა, განსაკურებით თუ საქმე გვაქვს ორსულობის დროს
-          არსებულ გარკვეულ რისკებთან.
+          • In woman's life Pregnancy is a period when her emotional health is
+          faced with a great test. It is important for a woman to have
+          information about the mental phases of pregnancy, to receive emotional
+          support and to heal if she is dealing with certain risks during
+          pregnancy.
         </li>
 
         <li>
-          მშობიარობის შემდგომი დეპრესია, რაც საკმაოდ გავრცელებული პრობლემაა
-          ორსულობის შემდეგ, არ არის მხოლოდ პერსონალური პრობლემა, ის ქვეყნის
-          სოციალური, განვითარების და ეკონომიკური მდგრადობის მაჩვენებელია.
-          კვლევების თანახმად, თუ ადრეულ ეტაპზე ხდება მშობიარობის შემდგომი
-          დეპრესიის პრევენცია და ამოცნობა, მისი მკურნალობის ეფექტურობა გაცილებით
-          მაღალია, ხოლო გამოჯანმრთელების დრო გაცილებით მოკლე.
+          • Postpartum depression, a common problem after pregnancy, is not just
+          a personal problem, it is an indicator of a social, developmental and
+          economic sustainability of the country. According to studies, if
+          postpartum depression is prevented and recognized at an early stage,
+          the effectiveness of its treatment is much higher, and the recovery
+          time is much shorter.
         </li>
       </ul>
 
       <p>
-        პერიქეას ხედვაა, რომ ყველა ქალს, კაცს და ოჯახს ჰქონდეს წვდომა დროულ და
-        ეფექტურ ინფორმაციასა და სერვისზე პერინატალურ ფსიქიკურ ჯანმრთელობასთან
-        დაკავშირებით. რაც მოიცავს მდგომარეობის სკრინინგს, პრევენციას, მენეჯმენტს
-        და ზრუნვას პრე და პოსტნატალურ პერიოდში.
+        The vision of “Pericare” is to have access to timely and effective
+        information and services related to perinatal mental health for all
+        women, men and families, which includes the screening, prevention,
+        management and care of the condition in the pre and postnatal period.
       </p>
 
-      <p className="font-bold">რას მოიცავს პერიქეას სერვისი:</p>
+      <p className="font-bold">What does the “Pericare” service include:</p>
 
       <ul>
         <li>
-          ორსულობის პერიოდში არსებული ფსიქიკური ჩივილები - მომატებული შფოთვა,
-          ასთენია, ჰიპერთენია, დეპრესიული ეპიზოდები, დისფორია;
+          Mental complaints during pregnancy - increased anxiety, asthenia,
+          hypertension, depressive episodes, dysphoria;
         </li>
-        <li>ორსულობის პერიოდში ფიზიკურ ჩივილებთან ასოცირებული სტრესი;</li>
-        <li>მშობიარობისთვის მზაობის ხელშეწყობა;</li>
-        <li>მშობიარობის შემდგომი დეპრესია და სხვა დარღვევები;</li>
-        <li>პრენატალური ჩივილები და მასთან ასოცირებული რისკები;</li>
-        <li>პოსტნატალური ჩივილები და მასთან ასოცირებული რისკები;</li>
-        <li>ტრავმის დამუშავება და ჯანსაღი მიჯაჭვულობის ჩამოყალიბება;</li>
-        <li>ჩვილის მოვლის რუტინა: კვება, ტირილი, ძილი;</li>
-        <li>ბავშვის განვითარების ეტაპები;</li>
-        <li>ფსიქოსომატიკა ჩვილობის და ადრეული ბავშვობის ასაკში;</li>
-        <li>მშობლობის მოდელი და კომპეტენციები;</li>
+        <li>Stress associated with physical complaints during pregnancy;</li>
+        <li>Promotion of readiness for childbirth;</li>
+        <li>Postpartum depression and other disorders;</li>
+        <li>Prenatal complaints and associated risks;</li>
+        <li>Postnatal complaints and associated risks;</li>
+        <li>Trauma processing and healthy attachment formation;</li>
+        <li>Baby care routine: feeding, crying, sleeping;</li>
+        <li>Stages of child development;</li>
+        <li>Psychosomatics in infancy and early childhood;</li>
+        <li>Parenting model and competencies;</li>
       </ul>
 
-      <p className="font-bold">პერიქეას სამიზნე ჯგუფები:</p>
-      <p>
-        <strong>ყველა მშობელი:</strong> მომავალი დედები და მამები - ორსულობამდე
-        და ორსულობის შემდომ პერიოდში (ორსულობის დადასტურებიდან, მშობიარობიდან
-        ერთი წლის ჩათვლით);
-      </p>
+      <p className="font-bold">Target groups of “Pericare”:</p>
+      <ul>
+        <li>
+          All parents: expectant mothers and fathers - before pregnancy and
+          during pregnancy (from confirmation of pregnancy, up to one year after
+          childbirth);
+        </li>
 
-      <p>
-        <strong>სარისკო ორსულები:</strong> ნაადრევი მშობიარობის რისკი, წინა
-        ორსულობაში მკვდრადშობილი ნაყოფი, ორსულობის შეწყვეტა, ბავშვის სიკვდილი,
-        დღენაკლული ბავშვი, ბავშვის ჰოსპიტალიზაცია, მშობლის თანმხლები დაავადება -
-        როგორც ფიზიკური, ისე ფსიქიკური, ალკოჰოლის და ნივთიერებათა მოხმარება;
-      </p>
+        <li>
+          Pregnant women with high risks: risk of premature birth, stillborn in
+          previous pregnancy, termination of pregnancy, death of a child,
+          premature baby, hospitalization of a child, accompanying illness of
+          the parent - both physical and mental, alcohol and substance abuse;
+        </li>
 
-      <p>
-        <strong>სამედიცინო და ზრუნვის სფეროში მომუშავე პერსონალი:</strong>{" "}
-        ექიმები, ექთნები, აღმზრდელები;
-      </p>
+        <li>Medical and care staff: doctors, nurses, educators;</li>
+      </ul>
 
-      <p className="font-bold">პერიქეას შედეგები:</p>
+      <p className="font-bold">Results of “Pericare”</p>
+
       <ul className="mb-8">
-        <li>ხელს უწყობს ორსულის ემოციურ რეგულაციას და მდგრადობას;</li>
-        <li>ხელს უწყობს ორსულობის მშვიდ/სტაბილურ მიმდინარეობას;</li>
         <li>
-          ამცირებს შფოთვას და სტრესს, როგორც ორსულობის მონიტორინგის პროცესში,
-          ასევე, სამშობიარო მანიპულაციებისას;
+          contributes to the emotional regulation and stability of the pregnant
+          woman;
+        </li>
+        <li>contributes to a calm/stable course of pregnancy;</li>
+        <li>
+          Reduces anxiety and stress, both during the pregnancy monitoring
+          process and during labor manipulations;
         </li>
         <li>
-          ხელს უწყობს სარისკო და გართულებული ორსულობების ფსიქო-ემოციურ მართვას;
+          promotes psycho-emotional management of risky and complicated
+          pregnancies;
+        </li>
+        <li>Increases real awareness about pregnancy and reduces "myths";</li>
+        <li>promotes sensitization with relaxation and breathing exercises;</li>
+        <li>reduces the frequency of psychosomatic complaints;</li>
+        <li>
+          acceptance of medical instructions (and manipulations) increases;
         </li>
         <li>
-          ზრდის ორსულობის შესახებ რეალურ ინფორმირებულობას და ამცირებს „მითებს“;
-        </li>
-        <li>
-          ხელს უწყობს სენსიბილიზაციას სარელაქსაციო და სუნთქვითი ვარჯიშებით;
-        </li>
-        <li>ამცირებს ფსიქოსომატური ჩივილების სიხშირეს;</li>
-        <li>
-          იზრდება მიმღებლობა სამედიცინო ინსტრუქციების (და მანიპულაციების)
-          მიმართ;
-        </li>
-        <li>
-          აუმჯობესებს მშობლებსა და შვილს შორის ემოციურ კავშირს და კომუნიკაციას;
+          Improves emotional connection and communication between parents and
+          child;
         </li>
       </ul>
     </div>
