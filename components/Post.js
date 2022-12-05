@@ -2,18 +2,22 @@ import { useTranslation } from "next-i18next";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function Post({ post }) {
+export default function Post({ post, link = "blog" }) {
   const { t } = useTranslation();
 
   const { locale } = useRouter();
 
   // Get correct link
-  let blogLink = '';
+  let blogLink = "";
 
-  if (locale === "ka") {
-    blogLink = `/blog/${post.id}`
-  } else if (locale === "en") {
-    blogLink = `/en/blog/${post.id}`
+  if (link === "ukraine_blogs") {
+    blogLink = `/ukraine/${post.id}`;
+  } else {
+    if (locale === "ka") {
+      blogLink = `/blog/${post.id}`;
+    } else if (locale === "en") {
+      blogLink = `/en/blog/${post.id}`;
+    }
   }
 
   return (

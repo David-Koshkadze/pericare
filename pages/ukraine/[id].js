@@ -1,11 +1,9 @@
 import ReactMarkdown from "react-markdown";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { getAllPostIds, getPostData } from "../../lib/posts";
+import { getUkrainePostIds, getUkrainePostData } from "../../lib/posts";
 
 export default function PostPage({ postData }) {
   const { cover_image, title } = postData.frontmatter;
-
-  // console.log("Content", postData.contentHtml)
 
   return (
     <>
@@ -20,8 +18,8 @@ export default function PostPage({ postData }) {
   );
 }
 
-export async function getStaticPaths({ locales }) {
-  const paths = getAllPostIds(locales);
+export async function getStaticPaths() {
+  const paths = getUkrainePostIds();
 
   return {
     paths,
@@ -30,9 +28,7 @@ export async function getStaticPaths({ locales }) {
 }
 
 export async function getStaticProps({ params, locale }) {
-  // const { data: frontmatter, content } = matter(markdownWithMeta);
-
-  const postData = await getPostData(params.id, locale);
+  const postData = await getUkrainePostData(params.id);
 
   return {
     props: {

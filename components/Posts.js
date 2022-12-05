@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Post from "./Post";
 
-export default function Posts({ posts }) {
+export default function Posts({ posts, link }) {
   const { t } = useTranslation();
 
   return (
@@ -10,7 +10,7 @@ export default function Posts({ posts }) {
 
       <div className="posts__grid px-8 md:px-0">
         {posts.map((post, idx) => (
-          <Post key={idx} post={post} />
+          <Post key={idx} post={post} link={link} />
         ))}
       </div>
     </div>
