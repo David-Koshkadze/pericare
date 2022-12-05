@@ -41,18 +41,23 @@ export default function Header() {
     },
     {
       name: t("pregnancy"),
+      link: "/pregnancy"
     },
     {
       name: t("childbirth"),
+      link: "/childbirth"
     },
     {
       name: t("baby"),
+      link: "/baby"
     },
     {
       name: t("child"),
+      link: "/child"
     },
     {
       name: t("ukraine_war"),
+      link: "/ukraine"
     },
     {
       name: t("about_us"),
