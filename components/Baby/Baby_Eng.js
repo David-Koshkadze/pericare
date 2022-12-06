@@ -127,9 +127,12 @@ export default function Baby_Eng() {
         of things that are natural for a newborn.
       </p>
       <p>
-        {" "}
-        Source:
-        <a href="https://www.unicef.org/georgia/sites/unicef.org.georgia/files/201905/zrdisa_da_ganvitarebis_monitoringi.pdf, https://www.moh.gov.ge/uploads/guidelines/2017/06/07/74ddd1c2d2588dc5a43cc9e050eb24ab.pdf">
+        Source:{" "}
+        <a
+          // style={{ overflowWrap: "break-word" }}
+          className="break-words"
+          href="https://www.unicef.org/georgia/sites/unicef.org.georgia/files/201905/zrdisa_da_ganvitarebis_monitoringi.pdf, https://www.moh.gov.ge/uploads/guidelines/2017/06/07/74ddd1c2d2588dc5a43cc9e050eb24ab.pdf"
+        >
           https://www.unicef.org/georgia/sites/unicef.org.georgia/files/201905/zrdisa_da_ganvitarebis_monitoringi.pdf,
           https://www.moh.gov.ge/uploads/guidelines/2017/06/07/74ddd1c2d2588dc5a43cc9e050eb24ab.pdf
         </a>
