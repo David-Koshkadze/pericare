@@ -91,12 +91,6 @@ export default function Child_Eng() {
         development.
       </p>
 
-      <img
-        src="/assets/child_img_2.jpg"
-        alt="about-img"
-        className="my-4 mx-auto"
-      />
-
       <p>
         In order to get to know the world, while observing objects, the child's
         brain begins to understand that objects are somehow similar and somehow
@@ -126,12 +120,6 @@ export default function Child_Eng() {
         they're better able to deal with both work and other life challenges as
         adults.
       </p>
-
-      <img
-        src="/assets/child_img_3.png"
-        alt="about-img"
-        className="my-4 mx-auto"
-      />
 
       <p>
         <strong>Source:</strong> UNICEF Georgia

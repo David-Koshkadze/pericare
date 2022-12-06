@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="max-w-[1050px] mx-auto px-4 lg:px-0 relative">
         <div className="flex justify-between flex-col md:flex-row">
           <div className="footer__links flex flex-col gap-2 w-auto md:w-full ">
-            <a href="#">{t("contact_us")}</a>
+            {/* <a href="#">{t("contact_us")}</a> */}
             <Link href="/about_us">{t("about_us")}</Link>
           </div>
 
