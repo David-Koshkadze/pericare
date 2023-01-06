@@ -2,10 +2,14 @@ import React, { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 let videoLinks = [
-  "https://www.youtube.com/embed/h9kb7d5b0v8",
-  "https://www.youtube.com/embed/wvtGaaI96PY",
-  "https://www.youtube.com/embed/24ArDzEZDlE",
-  "https://www.youtube.com/embed/G4qNP8yXYPQ"
+  "https://www.youtube.com/embed/U6DD03PRMn8",
+  "https://www.youtube.com/embed/o5dsQg29jRI",
+  "https://www.youtube.com/embed/rzHLNwCRUtk",
+  "https://www.youtube.com/embed/6Inr8dJlcZM",
+  "https://www.youtube.com/embed/pK8TpBoWC54",
+  "https://www.youtube.com/embed/Jc9B3QtP9G0",
+  "https://www.youtube.com/embed/bem7vCF8Q_Y",
+  "https://www.youtube.com/embed/fVCwfn8WoRs"
 ];
 
 export default function VideoGallery() {
